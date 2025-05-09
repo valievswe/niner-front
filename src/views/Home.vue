@@ -2,7 +2,7 @@
   <div class="container">
     <div class="hero offers-section">
       <div class="left">
-        <h1 class="title">CD EILTS mock exam platform</h1>
+        <h1 class="title">CD IELTS mock exam platform</h1>
         <p class="description">
           We Will make you <strong>niner</strong> together!
         </p>

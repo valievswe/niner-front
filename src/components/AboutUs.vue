@@ -4,7 +4,7 @@
     <div class="container">
       <div class="section-header">
         <h2 class="section-title">
-          About <span class="highlight">CD IELTS</span>
+          CD IELTS with<span class="highlight">New York LC</span>
         </h2>
         <div class="title-underline"></div>
       </div>
