@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <div class="hero">
+    <div class="hero offers-section">
       <div class="left">
         <h1 class="title">CD EILTS mock exam platform</h1>
         <p class="description">
@@ -42,7 +42,25 @@ import Weoffer from "../components/WeOffer.vue";
   justify-content: center;
   padding: 2rem;
   gap: 2rem;
+  z-index: 2;
   /* border: #000 1px solid; */
+}
+.offers-section {
+  padding: 5rem 0;
+  background-color: #fff;
+  position: relative;
+}
+
+.offers-section::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-image: radial-gradient(rgba(0, 0, 0, 0.096) 2px, transparent 2px);
+  background-size: 50px 50px;
+  z-index: 1;
 }
 
 .left {
@@ -51,6 +69,7 @@ import Weoffer from "../components/WeOffer.vue";
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
+  z-index: 2;
 }
 
 .right {

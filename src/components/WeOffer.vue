@@ -224,7 +224,7 @@ import rpl_btn from "./rpl_btn.vue";
   height: 100%;
   top: 0;
   left: 0;
-  background-image: radial-gradient(rgba(0, 0, 0, 0.03) 2px, transparent 2px);
+  background-image: radial-gradient(rgba(0, 0, 0, 0.189) 2px, transparent 2px);
   background-size: 30px 30px;
   z-index: 1;
 }
